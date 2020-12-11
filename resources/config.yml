@@ -1,0 +1,120 @@
+#                 _   _                  ___ _
+#                /_\ | |___ _ _  ___ ___| _ \ |_  _ ___
+#               / _ \| / _ \ ' \(_-</ _ \  _/ | || (_-<
+#              /_/ \_\_\___/_||_/__/\___/_| |_|\_,_/__/
+#                           by AlonsoAliaga
+#          https://www.spigotmc.org/resources/authors/281176/
+
+Messages:
+  No-permission: "&cYou don't have permission to do this."
+  Reloaded: "&aSome messages and options have been reloaded. Other may require a restart!"
+  Invalid-player: "&cPlayer is not online!"
+  Please-reconnect: "&cUnexpected error! Please reconnect to the server."
+  No-main-permission: "&cYou need &b[MVP&c+&b] &cto select a color!"
+  No-ranked-permission: "&cYou need &b[MVP&c+&b] &cto select a color!"
+  Help:
+    Admin:
+    - "&9 /alonsoplus color &f- &bOpen colors menu"
+    - "&9 /alonsoplus reload &f- &bReload configuration (Restart recommended)"
+    User:
+    - "&9 /alonsoplus color &f- &bOpen colors menu"
+  Gui:
+    Title: "&8Rank Color"
+
+Permissions:
+  #Permission to execute /alonsoplus command.
+  #By default is "none" to allow all players access to the GUI to see perks
+  #for donators and encourage to donate to your server.
+  Main: "none"
+  Admin: "alonsoplus.admin"
+  #Permission required to be able to replace rank.
+  Ranked: "alonsoplus.ranked"
+
+Items:
+  #Static item. Placeholder IS NOT SUPPORTED.
+  Back:
+    #Set to -1 to disable
+    Slot: 40
+    #Supports "CUSTOM_HEAD"
+    #Support durability. Example: "INK_SAC:0" for black dye in old versions.
+    Material: "ARROW"
+    #Required only if material is CUSTOM_HEAD
+    Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+    Custom-mode-data: 0
+    Displayname: "&aGo Back"
+    Glow: false
+    Lore:
+    - "&7To My Profile"
+    #Should inventory close on click?
+    Close: true
+    #Should player run a command if item is clicked?
+    #Set to "none" to disable. Available placeholders:
+    # {PLAYER} replaced with player name
+    # {UUID} replaced with player uuid
+    # {WORLD} replaced with player world name
+    Command: "none"
+  Frame:
+    Enabled: false
+    #Color of black stained pane
+    Color: "BLACK"
+    #Only for 1.14+
+    Custom-model-data: 0
+
+Options:
+  Debug: false
+  Support-developer: true
+  Command:
+    Main: "alonsoplus"
+    Aliases:
+    - "aplus"
+  Rank-color:
+    Main: "rankcolor"
+    Aliases:
+    - "rankplus"
+    - "colorrank"
+  Gui:
+    #Amount of rows.
+    Rows: 5
+    #Close GUI when color is selected?
+    #Recommended to leave this enabled.
+    Close-on-select: true
+
+#The most important part. Read CAREFULLY.
+Placeholders:
+  #This is the key word that will be replaced in prefix.
+  To-replace: "{COLOR}"
+  #This is the placeholder that will be returned if player is not ranked (If doesnt have the permission in "Permissions.Ranked"
+  No-ranked: "%vault_prefix%"
+  #This is the placeholder that will be returned and in which color will be replaced. Make sure the prefix of the rank HAS the word specified in "Placeholders.To-replace".
+  Ranked: "%vault_prefix%"
+
+Database:
+  #Available types: MySQL and SQLite
+  #You can use MySQL to make it global or you can use SQLite to make it local.
+  #MySQL requires a server (local or external)
+  #SQLite doesn't require anything, it's saved in a db file in the folder.
+  Type: "SQLite"
+  Table: "alonsoplus"
+  #If type is SQLite
+  File: "database-alonsoplus"
+  #If type is MySQL
+  Host: 127.0.0.1
+  Port: 3306
+  Database: "alonsoplus"
+  Username: "root"
+  Password: "12345"
+  #Used to keep connection alive to prevent connection timeout.
+  #Time in minutes. Recommended 30. Minimum 5.
+  Keep-connection-interval: 30
+
+Updates:
+  #Auto update configuration? Enabling will delete comments.
+  Auto-update-configuration: true
+  #Check for updates? Recommended to keep it enabled.
+  Check-updates: true
+  #Notify updates when player with permission joins the server?
+  Notify-updates: true
+  #Permission required to receive update message.
+  Permission: "alonsoplus.update"
+  #Message to send when update is found.
+  Message: "&9[AlonsoPlus] &eA new update has been found! You are using version {CURRENT}. Download version {NEW} here &c{LINK}"
