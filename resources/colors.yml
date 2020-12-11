@@ -1,0 +1,700 @@
+# This is the version of colors.yml for 1.16+
+Colors:
+  #You can create colors here. Make sure color identifiers are UNIQUE.
+  #If none is selected as default. First one will be selected.
+  #Remember to copy the same folder in all servers in order to keep the same color.
+  red:
+    Color: "&c"
+    #Should this color be default? Remember only one color can have "Default" option enabled.
+    Default: true
+    #Permission required for default color is always the same as "Permissions.Ranked" in config.yml
+    Permission: "none"
+    #Slot in GUI?
+    Slot: 10
+    Items:
+      Locked:
+        #Support CUSTOM_HEAD (Texture must be specified)
+        #Support durability for legacy versions "INK_SAC:1" for red dye.
+        Material: "RED_DYE"
+        #Only if material is CUSTOM_HEAD
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        #Supported only on 1.14+
+        Custom-mode-data: 0
+        Displayname: "&cRed Rank Color"
+        Lore:
+        - "&7The default color for &bMVP{DEFAULT}+&7."
+        - ""
+        - "&cRequires &bMVP{DEFAULT}+"
+      Unlocked:
+        Material: "RED_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&aRed Rank Color"
+        Lore:
+        - "&7The default color for &bMVP{DEFAULT}+&7."
+        - ""
+        - "&eClick to select!"
+      Selected:
+        Material: "RED_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Glow: true
+        Displayname: "&aRed Rank Color"
+        Lore:
+        - "&7The default color for &bMVP{DEFAULT}+&7."
+        - ""
+        - "&aCurrently selected!"
+    Messages:
+      Locked: "&cYou haven't unlocked (or claimed) that yet!"
+      Selected: "&aSelected! Your rank looks like this now: &bMVP{COLOR}+&b!"
+      Already-selected: "&cYou already have that selected!"
+  gold:
+    Color: "&6"
+    Default: false
+    Permission: "alonsoplus.color.gold"
+    Slot: 11
+    Items:
+      Locked:
+        Material: "ORANGE_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&cGold Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to gold, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&3Unlocked at YourNetwork Level 35"
+      Unlocked:
+        Material: "ORANGE_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&cGold Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to gold, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&eClick to select!"
+      Selected:
+        Material: "ORANGE_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Glow: true
+        Displayname: "&cGold Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to gold, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&aCurrently selected!"
+    Messages:
+      Locked: "&cYou haven't unlocked (or claimed) that yet!"
+      Selected: "&aSelected! Your rank looks like this now: &bMVP{COLOR}+&b!"
+      Already-selected: "&cYou already have that selected!"
+  green:
+    Color: "&a"
+    Default: false
+    Permission: "alonsoplus.color.green"
+    Slot: 12
+    Items:
+      Locked:
+        Material: "LIME_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&cGreen Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to green, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&3Unlocked at YourNetwork Level 45"
+      Unlocked:
+        Material: "LIME_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&aGreen Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to green, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&eClick to select!"
+      Selected:
+        Material: "LIME_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Glow: true
+        Displayname: "&aGreen Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to green, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&aCurrently selected!"
+    Messages:
+      Locked: "&cYou haven't unlocked (or claimed) that yet!"
+      Selected: "&aSelected! Your rank looks like this now: &bMVP{COLOR}+&b!"
+      Already-selected: "&cYou already have that selected!"
+  yellow:
+    Color: "&e"
+    Default: false
+    Permission: "alonsoplus.color.yellow"
+    Slot: 13
+    Items:
+      Locked:
+        Material: "YELLOW_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&cYellow Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to yellow, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&3Unlocked at YourNetwork Level 55"
+      Unlocked:
+        Material: "YELLOW_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&aYellow Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to yellow, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&eClick to select!"
+      Selected:
+        Material: "YELLOW_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Glow: true
+        Displayname: "&aYellow Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to yellow, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&aCurrently selected!"
+    Messages:
+      Locked: "&cYou haven't unlocked (or claimed) that yet!"
+      Selected: "&aSelected! Your rank looks like this now: &bMVP{COLOR}+&b!"
+      Already-selected: "&cYou already have that selected!"
+  light-purple:
+    Color: "&d"
+    Default: false
+    Permission: "alonsoplus.color.light-purple"
+    Slot: 14
+    Items:
+      Locked:
+        Material: "PINK_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&cLight Purple Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to light purple, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&3Unlocked at YourNetwork Level 65"
+      Unlocked:
+        Material: "PINK_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&aLight Purple Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to light purple, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&eClick to select!"
+      Selected:
+        Material: "PINK_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Glow: true
+        Displayname: "&aLight Purple Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to light purple, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&aCurrently selected!"
+    Messages:
+      Locked: "&cYou haven't unlocked (or claimed) that yet!"
+      Selected: "&aSelected! Your rank looks like this now: &bMVP{COLOR}+&b!"
+      Already-selected: "&cYou already have that selected!"
+  white:
+    Color: "&f"
+    Default: false
+    Permission: "alonsoplus.color.white"
+    Slot: 15
+    Items:
+      Locked:
+        Material: "WHITE_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&cWhite Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to white, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&3Unlocked at YourNetwork Level 75"
+      Unlocked:
+        Material: "WHITE_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&aWhite Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to white, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&eClick to select!"
+      Selected:
+        Material: "WHITE_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Glow: true
+        Displayname: "&aWhite Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to white, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&aCurrently selected!"
+    Messages:
+      Locked: "&cYou haven't unlocked (or claimed) that yet!"
+      Selected: "&aSelected! Your rank looks like this now: &bMVP{COLOR}+&b!"
+      Already-selected: "&cYou already have that selected!"
+  blue:
+    Color: "&9"
+    Default: false
+    Permission: "alonsoplus.color.blue"
+    Slot: 16
+    Items:
+      Locked:
+        Material: "BLUE_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&cBlue Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to blue, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&3Unlocked at YourNetwork Level 85"
+      Unlocked:
+        Material: "BLUE_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&aBlue Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to blue, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&eClick to select!"
+      Selected:
+        Material: "BLUE_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Glow: true
+        Displayname: "&aBlue Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to blue, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&aCurrently selected!"
+    Messages:
+      Locked: "&cYou haven't unlocked (or claimed) that yet!"
+      Selected: "&aSelected! Your rank looks like this now: &bMVP{COLOR}+&b!"
+      Already-selected: "&cYou already have that selected!"
+  dark-green:
+    Color: "&2"
+    Default: false
+    Permission: "alonsoplus.color.dark-green"
+    Slot: 19
+    Items:
+      Locked:
+        Material: "GREEN_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&cDark Green Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to dark green, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&3Unlocked at YourNetwork Level 95"
+      Unlocked:
+        Material: "GREEN_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&aDark Green Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to dark green, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&eClick to select!"
+      Selected:
+        Material: "GREEN_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Glow: true
+        Displayname: "&aDark Green Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to dark green, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&aCurrently selected!"
+    Messages:
+      Locked: "&cYou haven't unlocked (or claimed) that yet!"
+      Selected: "&aSelected! Your rank looks like this now: &bMVP{COLOR}+&b!"
+      Already-selected: "&cYou already have that selected!"
+  dark-red:
+    Color: "&4"
+    Default: false
+    Permission: "alonsoplus.color.dark-red"
+    Slot: 19
+    Items:
+      Locked:
+        Material: "REDSTONE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&cDark Red Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to dark red, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&3Unlocked at YourNetwork Level 150"
+      Unlocked:
+        Material: "REDSTONE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&aDark Red Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to dark red, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&eClick to select!"
+      Selected:
+        Material: "REDSTONE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Glow: true
+        Displayname: "&aDark Red Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to dark red, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&aCurrently selected!"
+    Messages:
+      Locked: "&cYou haven't unlocked (or claimed) that yet!"
+      Selected: "&aSelected! Your rank looks like this now: &bMVP{COLOR}+&b!"
+      Already-selected: "&cYou already have that selected!"
+  dark-aqua:
+    Color: "&3"
+    Default: false
+    Permission: "alonsoplus.color.dark-aqua"
+    Slot: 20
+    Items:
+      Locked:
+        Material: "CYAN_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&cDark Aqua Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to dark aqua, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&3Unlocked at YourNetwork Level 150"
+      Unlocked:
+        Material: "CYAN_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&aDark Aqua Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to dark aqua, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&eClick to select!"
+      Selected:
+        Material: "CYAN_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Glow: true
+        Displayname: "&aDark Aqua Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to dark aqua, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&aCurrently selected!"
+    Messages:
+      Locked: "&cYou haven't unlocked (or claimed) that yet!"
+      Selected: "&aSelected! Your rank looks like this now: &bMVP{COLOR}+&b!"
+      Already-selected: "&cYou already have that selected!"
+  dark-purple:
+    Color: "&5"
+    Default: false
+    Permission: "alonsoplus.color.dark-purple"
+    Slot: 21
+    Items:
+      Locked:
+        Material: "PURPLE_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&cDark Purple Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to dark purple, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&3Unlocked at YourNetwork Level 200"
+      Unlocked:
+        Material: "PURPLE_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&aDark Purple Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to dark purple, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&eClick to select!"
+      Selected:
+        Material: "PURPLE_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Glow: true
+        Displayname: "&aDark Purple Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to dark purple, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&aCurrently selected!"
+    Messages:
+      Locked: "&cYou haven't unlocked (or claimed) that yet!"
+      Selected: "&aSelected! Your rank looks like this now: &bMVP{COLOR}+&b!"
+      Already-selected: "&cYou already have that selected!"
+  dark-gray:
+    Color: "&8"
+    Default: false
+    Permission: "alonsoplus.color.dark-gray"
+    Slot: 22
+    Items:
+      Locked:
+        Material: "GRAY_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&cDark Gray Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to dark gray, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&3Unlocked at YourNetwork Level 200"
+      Unlocked:
+        Material: "GRAY_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&aDark Gray Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to dark gray, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&eClick to select!"
+      Selected:
+        Material: "GRAY_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Glow: true
+        Displayname: "&aDark Gray Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to dark gray, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&aCurrently selected!"
+    Messages:
+      Locked: "&cYou haven't unlocked (or claimed) that yet!"
+      Selected: "&aSelected! Your rank looks like this now: &bMVP{COLOR}+&b!"
+      Already-selected: "&cYou already have that selected!"
+  black:
+    Color: "&0"
+    Default: false
+    Permission: "alonsoplus.color.black"
+    Slot: 23
+    Items:
+      Locked:
+        Material: "BLACK_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&cBlack Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to black, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&3Unlocked at YourNetwork Level 250"
+      Unlocked:
+        Material: "BLACK_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&aBlack Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to black, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&eClick to select!"
+      Selected:
+        Material: "BLACK_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Glow: true
+        Displayname: "&aBlack Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to black, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&aCurrently selected!"
+    Messages:
+      Locked: "&cYou haven't unlocked (or claimed) that yet!"
+      Selected: "&aSelected! Your rank looks like this now: &bMVP{COLOR}+&b!"
+      Already-selected: "&cYou already have that selected!"
+  brown:
+    Color: "#a13206"
+    Default: false
+    Permission: "alonsoplus.color.brown"
+    Slot: 24
+    Items:
+      Locked:
+        Material: "BROWN_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&cBrown Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to brown, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&3Unlocked at YourNetwork Level 250"
+      Unlocked:
+        Material: "BROWN_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Displayname: "&aBrown Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to brown, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&eClick to select!"
+      Selected:
+        Material: "BROWN_DYE"
+        Texture: "ewogICJ0aW1lc3RhbXAiIDogMTU5NDQ0NjkyMDI5NiwKICAicHJvZmlsZUlkIiA6ICJlMWMxYTE5NDdlODY0MTRmODZiYjQyZDgyYTIxY2ZiOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbG9uc29BbGlhZ2EiLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTY4YWE3NGNjODg1NzgwNjBkMGZlM2JkOTA4YjM0ZjY5ZjEyZTA3ZjFmODljNWRkYzE1ZTZiZjYwZjA0Y2NjNiIKICAgIH0KICB9Cn0="
+        Custom-mode-data: 0
+        Glow: true
+        Displayname: "&aBrown Rank Color"
+        Lore:
+        - "&7Changes the color of the plus in &bMVP{DEFAULT}+"
+        - "&7to brown, turning it into &bMVP{COLOR}+"
+        - ""
+        - "&7Shown in tab list also when chatting"
+        - "&7and joining lobbies."
+        - ""
+        - "&aCurrently selected!"
+    Messages:
+      Locked: "&cYou haven't unlocked (or claimed) that yet!"
+      Selected: "&aSelected! Your rank looks like this now: &bMVP{COLOR}+&b!"
+      Already-selected: "&cYou already have that selected!"
