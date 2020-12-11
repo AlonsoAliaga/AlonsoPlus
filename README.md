@@ -6,7 +6,7 @@ Colors must be created by owners and permissions must be given to players for ea
 \
 **This plugin does NOT include a quest system.**
 ## Resources
-- [Spigot resource](https://www.spigotmc.org/resources/X/)
+- [Spigot resource](https://www.spigotmc.org/resources/86621/)
 - [Issue tracker](https://github.com/AlonsoAliaga/AlonsoPlus/issues)
 - [Donate](https://paypal.me/AlonsoAliaga)
 - [bStats (Free)](https://bstats.org/plugin/bukkit/AlonsoPlus/9606/)
